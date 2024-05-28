@@ -1,5 +1,3 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
-
-def msg = "I was compiled by Scala 3. :)"
+object Main extends App { // Adding 'extends App' allows for individual running of objects
+  println("Hello, World!")
+}
